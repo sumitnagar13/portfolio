@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body
+{
+    font-family: monospace;
+
+}
+nav{
+    background-color: #56cfe1;
+    height: 80px;
+    width: 100%;
+  
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height:80px ;
+    margin: 0 5px;
+
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 7px 13px;
+    position: sticky;
+}
+nav ul li a:hover{
+    background-color: #80ffdb;
+    border: 2px solid hidden;
+}
+.sec1{
+
+    position: relative;
+    background-color: #72efdd;
+    height: 90vh;
+}
+.sec1 .h2h5{
+    position: absolute;
+    top:300px;
+    color: white;
+    text-transform: uppercase;
+    left: 30px;
+
+}
+.sec1 .h2h5 h2{
+    font-size: 100px;
+
+}
+.sec1 .h2h5 h5{
+    font-size: 30px;
+}
+
+.sec1 .img
+{
+position: absolute;
+right:60px;
+top: 100px;
+border: 10px solid hidden;
+border-radius: 20px;
+box-shadow: 0 20px 25px rgba(0, 0, 0,0.25);
+
+}
+.skills{
+    position: relative;
+    height: 40vh;
+    background-color: #64dfdf;
+}
+.skills div h1{
+    position:absolute;
+    left: 100px;
+    top: 30px;
+    text-transform: capitalize;
+    color: white;
+}
+
+  
+.skill{
+    position: absolute;
+    left:150px;
+    top: 100px;
+    display: grid;
+
+
+}
+.skill ul li{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px 25px;
+}
+.skill2{
+
+
+    position:absolute;
+    right: 50%;
+    top: 100px;
+}
+.skill2 ul li{
+    color: white;
+    padding: 10px 25px;
+    font-size: 30px;
+
+}
+.abtme
+{
+    position: relative;
+    height: 40vh;
+    text-align: center;
+    background-color: #72efdd;
+    text-transform: capitalize;
+}
+.abtme h1{
+    position: relative;
+    text-align: center;
+    top: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+  
+}
+.abtme h3{
+
+    position: relative;
+    color: white;
+    top: 30px;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.abtme p{
+    position: relative;
+    top: 50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contactus{
+    position: relative;
+    height: 30vh;
+    text-transform: capitalize;
+    background-color: #64dfdf;
+
+}
+.contactus h1{
+    position: relative;
+    top: 30px;
+    text-align: center;
+    color: white;
+}
+.contactus h3{
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
